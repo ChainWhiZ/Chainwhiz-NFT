@@ -27,7 +27,7 @@ contract Chainwhiz_Solver_NFT is ERC721, Ownable {
     mapping(address => uint256) public nftHolders;
 
     constructor(string memory characterNames, string memory characterImageURIs)
-        ERC721("Chainwhiz GOAT Solvers", "CZ_GOAT_SOLVER")
+        ERC721("Chainwhiz GOAT Solvers", "CGS")
     {
         members = (
             ChainwhizMembers({name: characterNames, nftURI: characterImageURIs})

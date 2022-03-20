@@ -14,14 +14,51 @@ async function main() {
   // await hre.run('compile');
 
   // We get the contract to deploy
-  const Contract = await hre.ethers.getContractFactory("Chainwhiz_Solver_NFT");
-  const contract = await Contract.deploy("Bounty Hunters","https://gateway.pinata.cloud/ipfs/QmPMndMBVgLzs4taU9oE1FxfatNHGtssn8B5Dx5caTtqw7","Solve bounties from Web3 projects, get paid in crypto, and collect this cool NFT");
+  // const BountyHunterContract = await hre.ethers.getContractFactory(
+  //   "Chainwhiz_Solver_NFT"
+  // );
+  // const bountyhuntercontract = await BountyHunterContract.deploy(
+  //   "Bounty Hunters",
+  //   "https://gateway.pinata.cloud/ipfs/QmPMndMBVgLzs4taU9oE1FxfatNHGtssn8B5Dx5caTtqw7"
+  // );
 
-  await contract.deployed();
+  // await bountyhuntercontract.deployed();
+  // console.log(
+  //   "Chainwhiz Bounty Hunters NFT deployed to:",
+  //   bountyhuntercontract.address
+  // );
 
-  console.log("NFT deployed to:", contract.address);
-  // const txn = 
-  await contract.mintCharacterNFT("0x25ccED8002Da0934b2FDfb52c98356EdeBBA00B9");
+  const BountyPosterContract = await hre.ethers.getContractFactory(
+    "Chainwhiz_Poster_NFT"
+  );
+  const bountypostercontract = await BountyPosterContract.deploy(
+    "Bounty Poster",
+    "https://gateway.pinata.cloud/ipfs/QmZ8KqE4omJsZfvnNaUKxWyZDwmuxJGz3yZiuetLVSSqgA"
+  );
+
+  await bountypostercontract.deployed();
+
+  console.log(
+    "Chainwhiz Bounty Poster NFT deployed to:",
+    bountypostercontract.address
+  );
+
+  const ChainwhizFollowers = await hre.ethers.getContractFactory(
+    "Chainwhiz_200_Followers_NFT"
+  );
+  const chainwhizFollowers = await ChainwhizFollowers.deploy(
+    "Chainwhiz Followers",
+    "https://gateway.pinata.cloud/ipfs/QmSBfECD3LvBLdWT73AMXjnQfyr9euRZh6wiwfRDAzf4QC"
+  );
+
+  await chainwhizFollowers.deployed();
+
+  console.log(
+    "Chainwhiz Followers NFT deployed to:",
+    chainwhizFollowers.address
+  );
+  // const txn =
+  // await bountyhuntercontract.mintCharacterNFT("0x25ccED8002Da0934b2FDfb52c98356EdeBBA00B9");
   // await contract.mintCharacterNFT(1,"0x25ccED8002Da0934b2FDfb52c98356EdeBBA00B9");
 
   // await txn.wait();

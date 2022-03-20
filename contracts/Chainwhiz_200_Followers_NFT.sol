@@ -10,7 +10,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 //To convert the token URI to base64
 import "./lib/Base64.sol";
 
-contract Chainwhiz_Poster_NFT is ERC721, Ownable {
+contract Chainwhiz_200_Followers_NFT is ERC721, Ownable {
     struct ChainwhizMembers {
         string name;
         string nftURI;
@@ -27,7 +27,7 @@ contract Chainwhiz_Poster_NFT is ERC721, Ownable {
     mapping(address => uint256) public nftHolders;
 
     constructor(string memory characterNames, string memory characterImageURIs)
-        ERC721("Chainwhiz Awesome Posters", "CAP")
+        ERC721("Chainwhiz Awesome Follwers", "CAF")
     {
         members = (
             ChainwhizMembers({name: characterNames, nftURI: characterImageURIs})
@@ -79,7 +79,7 @@ contract Chainwhiz_Poster_NFT is ERC721, Ownable {
                         charAttributes.name,
                         " -- NFT #: ",
                         Strings.toString(_tokenId),
-                        '", "description": "Post a bounty on Chainwhiz, discover amazing talent, and take home this NFT", "image": "',
+                        '", "description": "200 Followers and counting! Collect this NFT by showcasing your support for Chainwhiz on Twitter.", "image": "',
                         charAttributes.nftURI,
                         '"}'
                     )
