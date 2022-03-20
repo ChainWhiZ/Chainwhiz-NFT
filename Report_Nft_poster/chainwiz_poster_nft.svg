@@ -1,0 +1,130 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="345pt" height="570pt" viewBox="0.00 0.00 345.40 570.00">
+<g id="graph0" class="graph" transform="translate(4,566) scale(1)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="transparent" points="-4,4 -4,-566 341.4,-566 341.4,4 -4,4" style=""/>
+<g id="clust1" class="cluster" data-name="clusterChainwhiz_Poster_NFT">
+
+<path fill="#445773" stroke="#445773" d="M20,-232C20,-232 317.4,-232 317.4,-232 323.4,-232 329.4,-238 329.4,-244 329.4,-244 329.4,-405 329.4,-405 329.4,-411 323.4,-417 317.4,-417 317.4,-417 20,-417 20,-417 14,-417 8,-411 8,-405 8,-405 8,-244 8,-244 8,-238 14,-232 20,-232" style=""/>
+<text text-anchor="middle" x="168.7" y="-400.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">Chainwhiz_Poster_NFT</text>
+</g>
+<g id="clust2" class="cluster" data-name="clusterCounters.Counter">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M225.57,-93C225.57,-93 316.86,-93 316.86,-93 322.86,-93 328.86,-99 328.86,-105 328.86,-105 328.86,-212 328.86,-212 328.86,-218 322.86,-224 316.86,-224 316.86,-224 225.57,-224 225.57,-224 219.57,-224 213.57,-218 213.57,-212 213.57,-212 213.57,-105 213.57,-105 213.57,-99 219.57,-93 225.57,-93" style=""/>
+<text text-anchor="middle" x="271.21" y="-207.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">Counters.Counter</text>
+</g>
+<g id="clust3" class="cluster" data-name="clusterStrings">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M233.06,-8C233.06,-8 309.37,-8 309.37,-8 315.37,-8 321.37,-14 321.37,-20 321.37,-20 321.37,-73 321.37,-73 321.37,-79 315.37,-85 309.37,-85 309.37,-85 233.06,-85 233.06,-85 227.06,-85 221.06,-79 221.06,-73 221.06,-73 221.06,-20 221.06,-20 221.06,-14 227.06,-8 233.06,-8" style=""/>
+<text text-anchor="middle" x="271.21" y="-68.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">Strings</text>
+</g>
+<g id="clust4" class="cluster" data-name="cluster_01">
+
+<polygon fill="#2e3e56" stroke="black" points="27.51,-425 27.51,-554 306.21,-554 306.21,-425 27.51,-425" style=""/>
+<text text-anchor="middle" x="166.86" y="-537.4" font-family="Times,serif" font-size="14.00" style="">Legend</text>
+</g>
+<!-- Chainwhiz_Poster_NFT.&lt;Constructor&gt; -->
+<g id="node1" class="node" pointer-events="visible" data-name="Chainwhiz_Poster_NFT.&lt;Constructor&gt;">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="100.51" cy="-312" rx="67.54" ry="18" style=""/>
+<text text-anchor="middle" x="100.51" y="-307.8" font-family="Times,serif" font-size="14.00" style="">&lt;Constructor&gt;</text>
+</g>
+<!-- Counters.Counter.increment -->
+<g id="node5" class="node" pointer-events="visible" data-name="Counters.Counter.increment">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="271.21" cy="-119" rx="49.8" ry="18" style=""/>
+<text text-anchor="middle" x="271.21" y="-114.8" font-family="Times,serif" font-size="14.00" style="">increment</text>
+</g>
+<!-- Chainwhiz_Poster_NFT.&lt;Constructor&gt;&#45;&gt;Counters.Counter.increment -->
+<g id="edge1" class="edge" data-name="Chainwhiz_Poster_NFT.&lt;Constructor&gt;-&gt;Counters.Counter.increment">
+
+<path fill="none" stroke="white" stroke-width="2" d="M158.44,-302.54C168.44,-298.57 177.91,-292.95 185.02,-285 227.1,-238.02 174.69,-195.66 213.57,-146 216.6,-142.13 220.32,-138.78 224.39,-135.9" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="226.4,-138.77 233.15,-130.6 222.78,-132.78 226.4,-138.77" style=""/>
+</g>
+<!-- Chainwhiz_Poster_NFT.mintCharacterNFT -->
+<g id="node2" class="node" pointer-events="visible" data-name="Chainwhiz_Poster_NFT.mintCharacterNFT">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="100.51" cy="-366" rx="84.52" ry="18" style=""/>
+<text text-anchor="middle" x="100.51" y="-361.8" font-family="Times,serif" font-size="14.00" style="">mintCharacterNFT</text>
+</g>
+<!-- Chainwhiz_Poster_NFT._safeMint -->
+<g id="node4" class="node" pointer-events="visible" data-name="Chainwhiz_Poster_NFT._safeMint">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="271.21" cy="-366" rx="50.38" ry="18" style=""/>
+<text text-anchor="middle" x="271.21" y="-361.8" font-family="Times,serif" font-size="14.00" style="">_safeMint</text>
+</g>
+<!-- Chainwhiz_Poster_NFT.mintCharacterNFT&#45;&gt;Chainwhiz_Poster_NFT._safeMint -->
+<g id="edge3" class="edge" data-name="Chainwhiz_Poster_NFT.mintCharacterNFT-&gt;Chainwhiz_Poster_NFT._safeMint">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M185.37,-366C193.86,-366 202.35,-366 210.51,-366" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="210.64,-369.5 220.64,-366 210.64,-362.5 210.64,-369.5" style=""/>
+</g>
+<!-- Chainwhiz_Poster_NFT.mintCharacterNFT&#45;&gt;Counters.Counter.increment -->
+<g id="edge4" class="edge" data-name="Chainwhiz_Poster_NFT.mintCharacterNFT-&gt;Counters.Counter.increment">
+
+<path fill="none" stroke="white" stroke-width="2" d="M164.69,-354.24C172.41,-350.47 179.51,-345.51 185.02,-339 241.05,-272.82 162.03,-215.74 213.57,-146 216.45,-142.1 220.04,-138.74 224.01,-135.85" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="225.92,-138.78 232.59,-130.55 222.24,-132.83 225.92,-138.78" style=""/>
+</g>
+<!-- Counters.Counter.current -->
+<g id="node6" class="node" pointer-events="visible" data-name="Counters.Counter.current">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="271.21" cy="-173" rx="38.26" ry="18" style=""/>
+<text text-anchor="middle" x="271.21" y="-168.8" font-family="Times,serif" font-size="14.00" style="">current</text>
+</g>
+<!-- Chainwhiz_Poster_NFT.mintCharacterNFT&#45;&gt;Counters.Counter.current -->
+<g id="edge2" class="edge" data-name="Chainwhiz_Poster_NFT.mintCharacterNFT-&gt;Counters.Counter.current">
+
+<path fill="none" stroke="white" stroke-width="2" d="M163.66,-353.89C171.63,-350.17 179.07,-345.33 185.02,-339 219.93,-301.9 187.99,-272.05 213.57,-228 220.86,-215.44 231.82,-203.85 242.17,-194.58" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="244.57,-197.13 249.89,-187.97 240.01,-191.82 244.57,-197.13" style=""/>
+</g>
+<!-- Chainwhiz_Poster_NFT.tokenURI -->
+<g id="node3" class="node" pointer-events="visible" data-name="Chainwhiz_Poster_NFT.tokenURI">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="100.51" cy="-258" rx="49.24" ry="18" style=""/>
+<text text-anchor="middle" x="100.51" y="-253.8" font-family="Times,serif" font-size="14.00" style="">tokenURI</text>
+</g>
+<!-- Strings.toString -->
+<g id="node7" class="node" pointer-events="visible" data-name="Strings.toString">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="271.21" cy="-34" rx="42.31" ry="18" style=""/>
+<text text-anchor="middle" x="271.21" y="-29.8" font-family="Times,serif" font-size="14.00" style="">toString</text>
+</g>
+<!-- Chainwhiz_Poster_NFT.tokenURI&#45;&gt;Strings.toString -->
+<g id="edge5" class="edge" data-name="Chainwhiz_Poster_NFT.tokenURI-&gt;Strings.toString">
+
+<path fill="none" stroke="white" stroke-width="2" d="M111.5,-240.36C129.81,-208.63 170.84,-140.47 213.57,-89 222.84,-77.82 234.15,-66.47 244.21,-57.01" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="246.64,-59.53 251.61,-50.17 241.89,-54.39 246.64,-59.53" style=""/>
+</g>
+<!-- key -->
+<g id="node8" class="node" pointer-events="visible" data-name="key">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="165.51,-521 35.51,-521 35.51,-433 165.51,-433 165.51,-521" style=""/>
+<text text-anchor="start" x="85.15" y="-502.4" font-family="Times,serif" font-size="14.00" style="">Internal Call</text>
+<text text-anchor="start" x="81.26" y="-482.4" font-family="Times,serif" font-size="14.00" style="">External Call</text>
+<text text-anchor="start" x="58.72" y="-462.4" font-family="Times,serif" font-size="14.00" style="">Defined Contract</text>
+<text text-anchor="start" x="45.12" y="-442.4" font-family="Times,serif" font-size="14.00" style="">Undefined Contract</text>
+</g>
+<!-- key2 -->
+<g id="node9" class="node" pointer-events="visible" data-name="key2">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="298.21,-521 244.21,-521 244.21,-433 298.21,-433 298.21,-521" style=""/>
+<text text-anchor="start" x="258.97" y="-502.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<text text-anchor="start" x="258.97" y="-482.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="#445773" stroke="transparent" points="257.21,-457 257.21,-477 285.21,-477 285.21,-457 257.21,-457" style=""/>
+<text text-anchor="start" x="258.97" y="-462.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="none" stroke="#e8726d" points="259.21,-439 259.21,-455 283.21,-455 283.21,-439 259.21,-439" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge6" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M158.51,-507C198.37,-507 210.79,-507 246.15,-507" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="246.21,-510.5 256.21,-507 246.21,-503.5 246.21,-510.5" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge7" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="white" stroke-width="2" d="M158.51,-487C198.37,-487 210.79,-487 246.15,-487" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="246.21,-490.5 256.21,-487 246.21,-483.5 246.21,-490.5" style=""/>
+</g>
+</g>
+</svg>
